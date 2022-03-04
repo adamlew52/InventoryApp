@@ -12,7 +12,7 @@ we may need to find the source file directory and add it to there
 #include <iostream>
 #include <stdio.h>
 
-using namespace std:
+using namespace std;
 
 int main()
 {
