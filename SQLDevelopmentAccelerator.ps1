@@ -1,5 +1,6 @@
 # Adam Lewis
-# This app is made in order to accelerate the startup in development time
+# RUN ME WITH POWERSHELL TO OPEN THE APPS USED IN ORDER TO DEVELOP FASTER 
+#This app is made in order to accelerate the startup in development time
 # it is starting as a Python SQL development tool, but can be upgraded to do more later!
 # 
 # The Future
