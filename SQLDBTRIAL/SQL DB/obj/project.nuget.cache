@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "gqEEYDFKjFdzfL4LU2DGYIh1Ej9i4DdqoKo0cUVB3rnNLeB240tjKDWtJnFGACM1FiSfYmavRDAwDLBUY5FkGA==",
+  "success": false,
+  "projectFilePath": "c:\\Users\\adama\\Desktop\\InventoryApp\\SQLDBTRIAL\\SQL DB\\SQL DB.sqlproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "Unable to resolve 'Microsoft.NETFramework.ReferenceAssemblies (>= 1.0.0)' for '.NETFramework,Version=v4.6'.",
+      "libraryId": "Microsoft.NETFramework.ReferenceAssemblies",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6"
+      ]
+    }
+  ]
+}
