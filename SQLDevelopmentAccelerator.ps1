@@ -8,7 +8,7 @@
 # 
 # 
 
-$appLocation = "C:\Users\adama\Desktop\InventoryApp\PythonDBModify"
+$appLocation = Get-Location
 $file = "$appLocation\Instructions.txt"
 
 function Get-Menu(){
@@ -23,13 +23,16 @@ function Get-ProjectName{
 }
 
 function Get-OpenDevApps(){
-    invoke-item "C:\Program Files\DB Browser for SQLite\DB Browser for SQLite.exe"
+    $filePath = "C:\Program Files\"
+    #invoke-item "C:\Progr0am Files\DB Browser for SQLite\DB Browser for SQLite.exe"
     # Start-Process "C:\Program Files\DB Browser for SQLite\DB Browser for SQLite.exe" "$projectName"
     write-output "Opening DB Browser for SQLite"
-    invoke-item "C:\Program Files\Git\git-bash.exe"
+    #invoke-item "C:\Program Files\Git\git-bash.exe"
     # Start-Process "C:\Program Files\DB Browser for SQLite\git-bash.exe" "$projectName"
     write-output "Opening git-bash"
-    invoke-item "C:\Program Files\Sublime Text\sublime_text.exe"
+    $findSublime = Get-ChildItem -Path "C:\Program Files\" -Include "Sublime"
+    Write-Host "Sublime's Location: $findSublime"
+    #invoke-item "C:\Program Files\$findSublime\sublime_text.exe"
     # Start-Process "C:\Program Files\DB Browser for SQLite\sublime_text.exe" "$projectName"
     write-output "Opening sublime_text"
 }
